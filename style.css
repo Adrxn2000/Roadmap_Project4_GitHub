@@ -21,20 +21,34 @@ body{
 }
 
 input{
-    width: 100%;
+    flex: 1;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+    outline: none;
+    border: none;
     border-radius: 5px;
+    background: transparent;
 }
 button{
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 5px;
+    outline: none;
+    border-radius: 40px;
     cursor: pointer;
 }
+
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+ 
 button:hover {
     background-color: #0056b3;
 }
@@ -45,7 +59,6 @@ button:hover {
     border-radius: 10px;
     width: 200px;
     border: 1px solid black;
-    align-content: center;
     justify-content: center;
     
 }
